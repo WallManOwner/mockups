@@ -337,11 +337,18 @@ document.head.innerHTML += `
     color: #000000;
   }
 
-
+  /* Use the banner artwork as the header's background image */
+  .game_header {
+    background-color: #132440 !important; /* fallback color */
+    background-image: url('https://i.ibb.co/CKw2byPn/Texturelabs-Paper-205-M.jpg') !important;
+    background-repeat: repeat !important;
+    background-size: 960px 596px !important; /* adjust tile size */
+    background-position: center !important;
+  }
 
   .inner_window_w_desc {
     background-color: #5a9690 !important; /* fallback color */
-    background-image: url('https://i.ibb.co/fd2wZwyt/Untitled1344-20261015074254.png')
+    background-image: url('https://i.ibb.co/fd2wZwyt/Untitled1344-20261015074254.png') !important;
     background-repeat: repeat !important;
     background-size: 960px 596px !important; /* adjust tile size */
     background-position: center !important;
@@ -349,7 +356,7 @@ document.head.innerHTML += `
 
   #game_window {
     background-color: #1d776d !important; /* fallback color */
-    background-image: url('https://i.ibb.co/fd2wZwyt/Untitled1344-20261015074254.png')
+    background-image: url('https://i.ibb.co/fd2wZwyt/Untitled1344-20261015074254.png') !important;
     background-repeat: repeat !important;
     background-size: 960px 596px !important; /* adjust tile size */
     background-position: center !important;
