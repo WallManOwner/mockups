@@ -1,0 +1,359 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 15,
+        "fields": {
+            "year": 1988,
+            "summary": "<p>After eight years of Ronald Reagan, the nation must decide whether it wants to stay with the Republicans or move in a new direction with the democrats.</p><ul><li>Jay Rockefeller, Senator of West Virginia, is a new figure on the national scene. Being socially moderate while being economically liberal, Rockefeller hopes to bring America towards a more liberal direction while reassuring the Progressive and Conservative wings of the party.</li><p><li>George Bush is Reagan's Vice President. Even with President Reagan's high approval rating, he is evenly tied with Rockefeller in the polls. Bush must find some way to shake up the race. He could emphasize the strong economy, or play offensive and question Rockefeller's campaign.</p>",
+            "image_url": "https://i.ibb.co/TMDVbmSG/Untitled457-20251014115536.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/atwater-estrich-1988.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Books and Links</h4>Peter Goldman - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B012HU7SZA/amhius20-20\" target=\"_blank\">The Quest for the Presidency, 1988</a></br>L.A. Times, November 10, 1988 - <a href=\"http://articles.latimes.com/1988-11-10/news/mn-299_1_dukakis-lost-reelection\" target=\"_blank\">How Presidential Race Was Won-and Lost : Michael S. Dukakis</a></br>L.A. Times, November 10, 1988 - <a href=\"http://articles.latimes.com/1988-11-10/news/mn-302_1_george-bush\" target=\"_blank\">How Presidential Race Was Won--and Lost : George Bush</a></br><a href=\"http://www.usnews.com/news/articles/2008/01/17/the-photo-op-that-tanked\" target=\"_blank\">Michael Dukakis: The Photo Op That Tanked</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1988WWR"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 152,
+        "fields": {
+            "first_name": "George",
+            "last_name": "Bush",
+            "election": 15,
+            "party": "Republican",
+            "state": "Texas",
+            "priority": 1,
+            "description": "",
+            "color_hex": "#bf092f",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.simon.com/public/static/images/george-bush-1988.jpg",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 153,
+        "fields": {
+            "first_name": "Jay",
+            "last_name": "Rockefeller",
+            "election": 15,
+            "party": "Democrat",
+            "state": "West Virginia",
+            "priority": 2,
+            "description": "Jay Rockefeller <i>(Real Name John D. Rockefeller IV)</i> is no stranger to politics, having been elected twice as Governor of West Virginia and was recently elected to the Senate. Throughout his career, he has maintained strong approval ratings. Although he usually works with the party's moderates, Rockefeller holds many progressive stances, including fair trade, the expansion of Healthcare, as well as being pro-union, which will excite Progressives who are disappointed about Jesse Jackson losing the nomination. <p>Outside of West Virginia, Rockefeller is largely unknown nationally, with many people calling his nomination a fluke. As a member of the Rockefeller family, a traditionally Republican family, he is often seen as the black sheep; however, this has prompted awkward conversations within the party about how a wealthy man could possibly represent them.",
+            "color_hex": "#2f5755",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://i.ibb.co/1GMc4NcX/Untitled467-20251015225403.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1988 election.</h3><p>In spite of a hard-fought challenge from George Bush, you have held on to succeed Ronald Reagan.</p><p>You were always the favorite to win, but a lot could have gone wrong. On the political front, you can work a Democratic House to overturn the worst excesses of Reagan. Internationally, you can hopefully oversee a period of relaxed tension with the Soviet Union.</p>",
+            "electoral_loss_message": "<h3>Sorry. You have lost the 1988 election.</h3><p>In spite of you being the favorite, things just never seemed to click once the real campaigning began.</p><p>Time will tell if Bush governs as a moderate, or a staunch conservative. Many Democrats feel that this election was yours to lose, and it seems unlikely that you will be welcome to run again in four years. Your term as Governor, however, runs through 1991.</p>",
+            "no_electoral_majority_message": "<h3>Congratulations! You have won the 1988 election.</h3><p>Although the Electoral College was tied, the Democrats have won a solid majority in the House, and will elevate Michael Dukakis to the Presidency.</p><p>On the political front, you can work a Democratic House to overturn the worst excesses of Reagan. Internationally, you can hopefully oversee a period of relaxed tension with the Soviet Union.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 154,
+        "fields": {
+            "first_name": "Ron",
+            "last_name": "Paul",
+            "election": 15,
+            "party": "Libertarian",
+            "state": "Texas",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#ffb22c",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 155,
+        "fields": {
+            "first_name": "Lenora",
+            "last_name": "Fulani/Other",
+            "election": 15,
+            "party": "Independent",
+            "state": "Pennsylvania",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#819067",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 156,
+        "fields": {
+            "first_name": "Dan",
+            "last_name": "Quayle",
+            "election": 15,
+            "party": "Republican",
+            "state": "Indiana",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.simon.com/public/static/images/dan-quayle-1988.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 159,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Glenn",
+            "election": 15,
+            "party": "Democrat",
+            "state": "Ohio",
+            "priority": 8,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.ibb.co/nMXSnvrY/Untitled467-20251015225407.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>John Glenn, Senator of Ohio is the perfect pick for Rockefeller's campaign.</p> <p>Being the third American in space and the first to orbit the Earth, circling it three times in 1962, has made him a celebrity throughout the country, and this isn't the first time playing in Presidential politics, running previously in the 84 primary as well as being a VP option in many shortlists. Politically, though Glenn is a self-described centrist, which would neither offend nor please any wing of the party, but the potential press from choosing a man like Glenn is too good to refuse.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 163,
+        "fields": {
+            "first_name": "Andre",
+            "last_name": "Marrou",
+            "election": 15,
+            "party": "Libertarian",
+            "state": "Alaska",
+            "priority": 12,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 164,
+        "fields": {
+            "first_name": "Other",
+            "last_name": "Other",
+            "election": 15,
+            "party": "Independent",
+            "state": "Pennsylvania",
+            "priority": 13,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 106,
+        "fields": {
+            "candidate": 155,
+            "running_mate": 164
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 105,
+        "fields": {
+            "candidate": 154,
+            "running_mate": 163
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 98,
+        "fields": {
+            "candidate": 152,
+            "running_mate": 156
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 102,
+        "fields": {
+            "candidate": 153,
+            "running_mate": 159
+        }
+    }
+]
+
+campaignTrail_temp.credits = "RosemaryThe"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 15,
+        "candidates": [
+            152,
+            153,
+            154,
+            155
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 15,
+        "candidates": [
+            152,
+            153,
+            154,
+            155
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 15,
+        "year": 1988,
+        "is_premium": 0,
+        "display_year": "1988WWR"
+    }
+]
+
+jet_data = {
+    "headerColor": "#132440",
+    "windowColor": "#5a9690",
+    "containerColor": "#006a67",
+    "innerWindowColor": "#5a9690",
+    "bannerImageUrl": "https://i.ibb.co/SjCyJFc/Untitled1341-20261014093111.png",
+    "backgroundImageUrl": "https://i.ibb.co/1tTvx9RN/IMG-0667.webp",
+    "endingTextColor": "#ffffff",
+    "customQuote": "",
+    "gameTitle": "CAMPAIGN TRAIL SHOWCASE"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2 style="font-style: normal;"><b><b>CAMPAIGN TRAIL SHOWCASE</b></b></h2>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#132440";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#5a9690";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#006a67";
+
+document.getElementById("header").src = "https://i.ibb.co/SjCyJFc/Untitled1341-20261014093111.png";
+
+document.body.background = "https://i.ibb.co/1tTvx9RN/IMG-0667.webp";
+
+document.head.innerHTML += `
+<style>
+  #results_container {
+    color: #000000;
+  }
+
+
+
+  .inner_window_w_desc {
+    background-color: #5a9690 !important; /* fallback color */
+    background-image: url('https://i.ibb.co/fd2wZwyt/Untitled1344-20261015074254.png')
+    background-repeat: repeat !important;
+    background-size: 960px 596px !important; /* adjust tile size */
+    background-position: center !important;
+  }
+
+  #game_window {
+    background-color: #1d776d !important; /* fallback color */
+    background-image: url('https://i.ibb.co/fd2wZwyt/Untitled1344-20261015074254.png')
+    background-repeat: repeat !important;
+    background-size: 960px 596px !important; /* adjust tile size */
+    background-position: center !important;
+  }
+</style>`;
+
+//#endcode
