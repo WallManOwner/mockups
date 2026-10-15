@@ -346,6 +346,12 @@ document.head.innerHTML += `
     background-position: center !important;
   }
 
+  /* Give the outer container a tiled image background too */
+  .container {
+    background-color: #006a67 !important; /* fallback color */
+    background-image: url('https://i.ibb.co/0pw080GP/Texturelabs-Ink-Paint-378-M.jpg') !important;
+  }
+
   .inner_window_w_desc {
     background-color: #5a9690 !important; /* fallback color */
     background-image: url('https://i.ibb.co/fd2wZwyt/Untitled1344-20261015074254.png') !important;
